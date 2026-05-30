@@ -11,11 +11,11 @@ on:
       - 'CMakeLists.txt'
       - 'setup.py'
       - 'pyproject.toml'
-    branches: [master]
+    branches: [main]
   pull_request:
     paths:
       - '.github/workflows/build-and-test-wheels.yml'
-    branches: [master]
+    branches: [main]
   release:
     types: [published]
 

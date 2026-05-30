@@ -13,14 +13,14 @@ Because ViZDoom was created before the first release of OpenAI Gym, it uses a bi
 ViZDoom is implemented in C++ and can be used as a C++ library. The C++ API is one-to-one with the Python API. The only difference is the use of `camelCase` instead of `snake_case` for method names.
 
 ViZDoom can be built as a static or dynamic library. The header files are located in the `include` directory.
-See [examples/cpp](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/cpp) for examples, including CMake files for building.
+See [examples/cpp](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/cpp) for examples, including CMake files for building.
 
 
 ## Python API
 
 ViZDoom provides Python bindings for the library. The Python API is one-to-one with the C++ API. The only difference is the use of `snake_case` instead of `camelCase` for method and argument names.
 
-There are many examples of how to use Python API in [examples/python](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python) directory.
+There are many examples of how to use Python API in [examples/python](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python) directory.
 
 
 ## Gymnasium wrappers
@@ -34,13 +34,13 @@ simply initializes ViZDoom with the settings from the scenario config files
 and implements the necessary API to function as a Gymnasium API.
 
 See the following examples for use:
-- [examples/python/gymnasium_wrapper.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/gymnasium_wrapper.py) for basic usage
-- [examples/python/learning_stable_baselines.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/learning_stable_baselines3.py) for example training with [stable-baselines3](https://github.com/DLR-RM/stable-baselines3/).
+- [examples/python/gymnasium_wrapper.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/gymnasium_wrapper.py) for basic usage
+- [examples/python/learning_stable_baselines.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/learning_stable_baselines3.py) for example training with [stable-baselines3](https://github.com/DLR-RM/stable-baselines3/).
 
 
 ## OpenAI Gym wrappers
 
-> Original OpenAI Gym wrappers are no longer maintained and were removed from master branch. We recommend using Gymnasium wrappers instead.
+> Original OpenAI Gym wrappers are no longer maintained and were removed from main branch. We recommend using Gymnasium wrappers instead.
 
 Installing ViZDoom version < 1.3.0 with `pip install vizdoom[gym]` will include
 Gym 0.26 wrappers to interact with ViZDoom over Gym API.
@@ -48,6 +48,6 @@ Gym 0.26 wrappers to interact with ViZDoom over Gym API.
 
 ## Julia, Lua, and Java APIs
 
-> Julia, Lua, and Java bindings are no longer maintained and were removed from master branch
+> Julia, Lua, and Java bindings are no longer maintained and were removed from main branch
 
 Julia, Lua, and Java can be found in [julia](https://github.com/Farama-Foundation/ViZDoom/tree/julia) and [java&lua](https://github.com/Farama-Foundation/ViZDoom/tree/java%26lua) branches for manual building.

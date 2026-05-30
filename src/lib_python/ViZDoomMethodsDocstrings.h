@@ -37,8 +37,8 @@ All rewards, variables, and states are available when replaying the episode.
 
 See also:
 
-- `examples/python/record_episodes.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/record_episodes.py>`_
-- `examples/python/record_multiplayer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/record_multiplayer.py>`_
+- `examples/python/record_episodes.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/record_episodes.py>`_
+- `examples/python/record_multiplayer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/record_multiplayer.py>`_
 
 Note: added in 1.1.0.)DOCSTRING";
 
@@ -52,9 +52,9 @@ Note: added in 1.3.1.)DOCSTRING";
 
 See also:
 
-- `examples/python/multiple_instances.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/multiple_instances.py>`_
-- `examples/python/cig_multiplayer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/cig_multiplayer.py>`_
-- `examples/python/cig_multiplayer_host.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/cig_multiplayer_host.py>`_
+- `examples/python/multiple_instances.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/multiple_instances.py>`_
+- `examples/python/cig_multiplayer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/cig_multiplayer.py>`_
+- `examples/python/cig_multiplayer_host.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/cig_multiplayer_host.py>`_
 
 Note: added in 1.1.2.)DOCSTRING";
 
@@ -509,7 +509,7 @@ Config key: ``ticrate``
 
 See also:
 
-- `examples/python/ticrate.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/ticrate.py>`_
+- `examples/python/ticrate.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/ticrate.py>`_
 
 Note: added in 1.1.0.)DOCSTRING";
 
@@ -587,7 +587,7 @@ Config key: ``seed``
 
 See also:
 
-- `examples/python/seed.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/seed.py>`_)DOCSTRING";
+- `examples/python/seed.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/seed.py>`_)DOCSTRING";
 
     const char *getEpisodeStartTime = R"DOCSTRING(Returns the start time (delay) of every episode in tics.)DOCSTRING";
 
@@ -643,7 +643,7 @@ Config key: ``depthBufferEnabled``/``depth_buffer_enabled``
 See also:
 
 - :class:`.GameState`
-- `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py>`_
+- `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py>`_
 
 Note: added in 1.1.0.)DOCSTRING";
 
@@ -664,8 +664,8 @@ Config key: ``labelsBufferEnabled``/``labels_buffer_enabled``
 See also:
 
 - :class:`.GameState`
-- `examples/python/labels_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/labels_buffer.py>`_
-- `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py>`_
+- `examples/python/labels_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/labels_buffer.py>`_
+- `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py>`_
 
 Note: added in 1.1.0.)DOCSTRING";
 
@@ -685,8 +685,8 @@ Config key: ``automapBufferEnabled``/``automap_buffer_enabled``
 See also:
 
 - :class:`.GameState`
-- `examples/python/automap_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/automap_buffer.py>`_
-- `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py>`_,
+- `examples/python/automap_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/automap_buffer.py>`_
+- `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py>`_,
 
 Note: added in 1.1.0.)DOCSTRING";
 
@@ -862,7 +862,7 @@ Config key: ``objectsInfoEnabled``/``objects_info_enabled``
 See also:
 
 - :class:`.GameState`
-- `examples/python/objects_and_sectors.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/objects_and_sectors.py>`_,
+- `examples/python/objects_and_sectors.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/objects_and_sectors.py>`_,
 
 Note: added in 1.1.8.)DOCSTRING";
 
@@ -882,7 +882,7 @@ Config key: ``sectorsInfoEnabled``/``sectors_info_enabled``
 See also:
 
 - :class:`.GameState`
-- `examples/python/objects_and_sectors.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/objects_and_sectors.py>`_
+- `examples/python/objects_and_sectors.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/objects_and_sectors.py>`_
 
 Note: added in 1.1.8.)DOCSTRING";
 
@@ -904,7 +904,7 @@ See also:
 
 - :class:`.GameState`
 - :class:`.SamplingRate`
-- `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py>`_
+- `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py>`_
 
 Note: added in 1.1.9.)DOCSTRING";
 
@@ -913,7 +913,7 @@ Note: added in 1.1.9.)DOCSTRING";
 See also:
 
 - :class:`.GameState`
-- `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py>`_
+- `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py>`_
 
 Note: added in 1.1.9.)DOCSTRING";
 
@@ -928,7 +928,7 @@ Config key: ``audioSamplingRate``/``audio_sampling_rate``
 See also:
 
 - :class:`.GameState`
-- `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py>`_
+- `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py>`_
 
 Note: added in 1.1.9.)DOCSTRING";
 
@@ -940,7 +940,7 @@ Note: added in 1.1.9.
 See also:
 
 - :class:`.GameState`
-- `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py>`_)DOCSTRING";
+- `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py>`_)DOCSTRING";
 
     const char *setAudioBufferSize = R"DOCSTRING(Sets the size/length of the audio buffer. The size is defined by a number of logic tics.
 After each action audio buffer will contain audio from the specified number of the last processed tics.
@@ -955,7 +955,7 @@ Config key: ``audioBufferSize``/``audio_buffer_size``
 See also:
 
 - :class:`.GameState`
-- `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py>`_
+- `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py>`_
 
 Note: added in 1.1.9.)DOCSTRING";
 
@@ -975,7 +975,7 @@ Config key: ``notificationsBufferEnabled``/``notifications_buffer_enabled``
 See also:
 
 - :class:`.GameState`
-- `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py>`_
+- `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py>`_
 
 Note: added in 1.3.0.)DOCSTRING";
 
@@ -987,7 +987,7 @@ Note: added in 1.3.0.
 See also:
 
 - :class:`.GameState`
-- `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py>`_)DOCSTRING";
+- `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py>`_)DOCSTRING";
 
     const char *setNotificationsBufferSize = R"DOCSTRING(Sets the size of the notify buffer. The size is defined by a number of logic tics.
 After each action notify buffer will contain text notifications from the specified number of the last processed tics.
@@ -1002,7 +1002,7 @@ Config key: ``notificationsBufferSize``/``notifications_buffer_size``
 See also:
 
 - :class:`.GameState`
-- `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py>`_
+- `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py>`_
 
 Note: added in 1.3.0.)DOCSTRING";
 

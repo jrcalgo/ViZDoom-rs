@@ -11,7 +11,7 @@ on:
       - 'CMakeLists.txt'
       - 'setup.py'
       - 'pyproject.toml'
-    branches: [master]
+    branches: [main]
   pull_request:
     paths:
       - '.github/workflows/build-and-test.yml'
@@ -22,7 +22,7 @@ on:
       - 'CMakeLists.txt'
       - 'setup.py'
       - 'pyproject.toml'
-    branches: [master]
+    branches: [main]
 
 env:
   HOMEBREW_NO_AUTO_UPDATE: 1

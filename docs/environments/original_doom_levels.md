@@ -99,10 +99,10 @@ game.set_doom_level(1)  # or 2, 3, 4, 5
 ```
 
 Configuration file:
-- Doom: [doom.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/doom.cfg)
-- Doom 2: [doom2.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/doom2.cfg)
-- Freedoom: [freedoom1.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/freedoom.cfg)
-- Freedoom 2: [freedoom2.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/freedoom2.cfg)
+- Doom: [doom.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/doom.cfg)
+- Doom 2: [doom2.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/doom2.cfg)
+- Freedoom: [freedoom1.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/freedoom.cfg)
+- Freedoom 2: [freedoom2.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/freedoom2.cfg)
 
 
 ## Original Doom 1 levels

@@ -59,7 +59,7 @@ In **GRAY8** and **DOOM_256_COLORS8** format **screenBuffer** and **automapBuffe
 See also:
 - [`DoomGame::getScreenFormat`](./doom_game.md#getscreenformat),
 - [`DoomGame::setScreenFormat`](./doom_game.md#setscreenformat),
-- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py).
+- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py).
 
 
 ---
@@ -122,7 +122,7 @@ Enum type that defines all **automapBuffer** modes.
 
 See also:
 - [`DoomGame::setAutomapMode`](./doom_game.md#setautomapmode),
-- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py).
+- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py).
 
 
 ---
@@ -188,8 +188,8 @@ See also:
 - [`DoomGame::addAvailableGameVariable`](./doom_game.md#addavailablegamevariable),
 - [`DoomGame::getGameVariable`](./doom_game.md#getgamevariable),
 - [`doomFixedToDouble`](utils.md#doomfixedtodouble),
-- [examples/python/basic.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/basic.py),
-- [examples/python/shaping.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/shaping.py).
+- [examples/python/basic.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/basic.py),
+- [examples/python/shaping.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/shaping.py).
 
 
 ---
@@ -263,8 +263,8 @@ See also:
 - [`DoomGame::addAvailableButton`](./doom_game.md#addavailablebutton),
 - [`DoomGame::setButtonMaxValue`](./doom_game.md#setbuttonmaxvalue),
 - [`DoomGame::getButtonMaxValue`](./doom_game.md#getbuttonmaxvalue),
-- [examples/python/basic.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/basic.py),
-- [examples/python/delta_buttons.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/delta_buttons.py),
+- [examples/python/basic.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/basic.py),
+- [examples/python/delta_buttons.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/delta_buttons.py),
 - [GitHub issue: Angle changes by executing certain commands](https://github.com/Farama-Foundation/ViZDoom/issues/182).
 
 

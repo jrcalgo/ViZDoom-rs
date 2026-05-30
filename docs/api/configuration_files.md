@@ -131,4 +131,4 @@ mode = PLAYER
 doom_skill = 5
 ```
 
-Other examples of configuration files can be found in [scenarios](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios) directory.
+Other examples of configuration files can be found in [scenarios](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios) directory.

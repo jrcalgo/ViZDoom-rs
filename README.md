@@ -1,14 +1,14 @@
 [![PyPI version](https://badge.fury.io/py/vizdoom.svg)](https://badge.fury.io/py/vizdoom) [![Build and test](https://github.com/Farama-Foundation/ViZDoom/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/Farama-Foundation/ViZDoom/actions/workflows/build-and-test.yml) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Farama-Foundation/ViZDoom/master/docs/_static/img/vizdoom-text.png" width="500px"/>
+  <img src="https://raw.githubusercontent.com/Farama-Foundation/ViZDoom/main/docs/_static/img/vizdoom-text.png" width="500px"/>
 </p>
 
 ViZDoom allows developing AI **bots that play Doom using only visual information** (the screen buffer). It is primarily intended for research in machine visual learning, and deep reinforcement learning, in particular.
 
 ViZDoom is based on [ZDoom](https://zdoom.org) engine to provide the game mechanics.
 
-![ViZDoom Demo](https://raw.githubusercontent.com/Farama-Foundation/ViZDoom/master/docs/_static/img/vizdoom-demo.gif)
+![ViZDoom Demo](https://raw.githubusercontent.com/Farama-Foundation/ViZDoom/main/docs/_static/img/vizdoom-demo.gif)
 
 
 ## Features
@@ -124,12 +124,12 @@ please consider using [Docker](https://docs.docker.com/docker-for-windows/instal
 
 ### Gymnasium/Gym wrappers
 Gymnasium environments are installed along with ViZDoom and are available on all platforms.
-See [documentation](https://github.com/Farama-Foundation/ViZDoom/blob/master/doc/Gymnasium.md) and [examples](https://github.com/Farama-Foundation/ViZDoom/blob/master/examples/python/gymnasium_wrapper.py) on the use of Gymnasium API.
+See [documentation](https://github.com/Farama-Foundation/ViZDoom/blob/main/doc/Gymnasium.md) and [examples](https://github.com/Farama-Foundation/ViZDoom/blob/main/examples/python/gymnasium_wrapper.py) on the use of Gymnasium API.
 
 
 ## Examples
-- [Python](https://github.com/Farama-Foundation/ViZDoom/blob/master/examples/python) (contain learning examples implemented in PyTorch, TensorFlow, and Theano)
-- [C++](https://github.com/Farama-Foundation/ViZDoom/blob/master/examples/c%2B%2B)
+- [Python](https://github.com/Farama-Foundation/ViZDoom/blob/main/examples/python) (contain learning examples implemented in PyTorch, TensorFlow, and Theano)
+- [C++](https://github.com/Farama-Foundation/ViZDoom/blob/main/examples/c%2B%2B)
 
 Python examples are currently the richest, so we recommend looking at them, even if you plan to use C++.
 The API is almost identical between the languages, with the only difference being that Python uses snake_case and C++ camelCase for methods and functions.

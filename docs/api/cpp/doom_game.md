@@ -63,8 +63,8 @@ After calling this method, the first state from the replay will be available.
 All rewards, variables, and states are available when replaying the episode.
 
 See also:
-- [examples/python/record_episodes.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/record_episodes.py)
-- [examples/python/record_multiplayer.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/record_multiplayer.py)
+- [examples/python/record_episodes.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/record_episodes.py)
+- [examples/python/record_multiplayer.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/record_multiplayer.py)
 
 Note: added in 1.1.0.
 
@@ -101,9 +101,9 @@ Note: added in 1.3.1.
 Returns true if the game is in multiplayer mode.
 
 See also:
-- [examples/python/multiple_instances.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/multiple_instances.py)
-- [examples/python/cig_multiplayer.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/cig_multiplayer.py)
-- [examples/python/cig_multiplayer_host.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/cig_multiplayer_host.py)
+- [examples/python/multiple_instances.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/multiple_instances.py)
+- [examples/python/cig_multiplayer.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/cig_multiplayer.py)
+- [examples/python/cig_multiplayer_host.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/cig_multiplayer_host.py)
 
 Note: added in 1.1.2.
 
@@ -1155,7 +1155,7 @@ Has no effect when the game is running.
 Config key: `ticrate`
 
 See also:
-- [examples/python/ticrate.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/ticrate.py)
+- [examples/python/ticrate.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/ticrate.py)
 
 Note: added in 1.1.0.
 
@@ -1344,7 +1344,7 @@ Default value: randomized in constructor
 Config key: `seed`
 
 See also:
-- [examples/python/seed.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/seed.py)
+- [examples/python/seed.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/seed.py)
 
 
 
@@ -1474,7 +1474,7 @@ Config key: `depthBufferEnabled`/`depth_buffer_enabled`
 
 See also:
 - [`GameState`](./game_state.md#gamestate)
-- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py)
+- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py)
 
 Note: added in 1.1.0.
 
@@ -1510,8 +1510,8 @@ Config key: `labelsBufferEnabled`/`labels_buffer_enabled`
 
 See also:
 - [`GameState`](./game_state.md#gamestate)
-- [examples/python/labels_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/labels_buffer.py)
-- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py)
+- [examples/python/labels_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/labels_buffer.py)
+- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py)
 
 Note: added in 1.1.0.
 
@@ -1546,8 +1546,8 @@ Config key: `automapBufferEnabled`/`automap_buffer_enabled`
 
 See also:
 - [`GameState`](./game_state.md#gamestate)
-- [examples/python/automap_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/automap_buffer.py)
-- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py),
+- [examples/python/automap_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/automap_buffer.py)
+- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py),
 
 Note: added in 1.1.0.
 
@@ -1920,7 +1920,7 @@ Config key: `objectsInfoEnabled`/`objects_info_enabled`
 
 See also:
 - [`GameState`](./game_state.md#gamestate)
-- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/objects_and_sectors.py),
+- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/objects_and_sectors.py),
 
 Note: added in 1.1.8.
 
@@ -1955,7 +1955,7 @@ Config key: `sectorsInfoEnabled`/`sectors_info_enabled`
 
 See also:
 - [`GameState`](./game_state.md#gamestate)
-- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/objects_and_sectors.py)
+- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/objects_and_sectors.py)
 
 Note: added in 1.1.8.
 
@@ -1992,7 +1992,7 @@ Config key: `audioBufferEnabled`/`audio_buffer_enabled`
 See also:
 - [`GameState`](./game_state.md#gamestate)
 - [`SamplingRate`](./enums.md#sampling-rate)
-- [examples/python/audio_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py)
+- [examples/python/audio_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py)
 
 Note: added in 1.1.9.
 
@@ -2008,7 +2008,7 @@ Returns the [`SamplingRate`](./enums.md#sampling-rate) of the audio buffer.
 
 See also:
 - [`GameState`](./game_state.md#gamestate)
-- [examples/python/audio_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py)
+- [examples/python/audio_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py)
 
 Note: added in 1.1.9.
 
@@ -2030,7 +2030,7 @@ Config key: `audioSamplingRate`/`audio_sampling_rate`
 
 See also:
 - [`GameState`](./game_state.md#gamestate)
-- [examples/python/audio_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py)
+- [examples/python/audio_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py)
 
 Note: added in 1.1.9.
 
@@ -2049,7 +2049,7 @@ Note: added in 1.1.9.
 
 See also:
 - [`GameState`](./game_state.md#gamestate)
-- [examples/python/audio_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py)
+- [examples/python/audio_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py)
 
 
 ---
@@ -2071,7 +2071,7 @@ Config key: `audioBufferSize`/`audio_buffer_size`
 
 See also:
 - [`GameState`](./game_state.md#gamestate)
-- [examples/python/audio_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py)
+- [examples/python/audio_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py)
 
 Note: added in 1.1.9.
 
@@ -2106,7 +2106,7 @@ Config key: `notificationsBufferEnabled`/`notifications_buffer_enabled`
 
 See also:
 - [`GameState`](./game_state.md#gamestate)
-- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py)
+- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py)
 
 Note: added in 1.3.0.
 
@@ -2125,7 +2125,7 @@ Note: added in 1.3.0.
 
 See also:
 - [`GameState`](./game_state.md#gamestate)
-- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py)
+- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py)
 
 
 ---
@@ -2147,6 +2147,6 @@ Config key: `notificationsBufferSize`/`notifications_buffer_size`
 
 See also:
 - [`GameState`](./game_state.md#gamestate)
-- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py)
+- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py)
 
 Note: added in 1.3.0.

@@ -106,5 +106,5 @@ Original website <https://vizdoom.cs.put.edu.pl/>
 
 Github <https://github.com/Farama-Foundation/ViZDoom>
 release_notes/index
-Contribute to the Docs <https://github.com/Farama-Foundation/ViZDoom/blob/master/docs/README.md>
+Contribute to the Docs <https://github.com/Farama-Foundation/ViZDoom/blob/main/docs/README.md>
 ```

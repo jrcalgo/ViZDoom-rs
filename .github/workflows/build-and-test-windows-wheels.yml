@@ -11,7 +11,7 @@ on:
       - 'CMakeLists.txt'
       - 'setup.py'
       - 'pyproject.toml'
-    branches: [master]
+    branches: [main]
   pull_request:
     paths:
       - '.github/workflows/build-and-test-windows-wheels.yml'
@@ -22,7 +22,7 @@ on:
       - 'CMakeLists.txt'
       - 'setup.py'
       - 'pyproject.toml'
-    branches: [master]
+    branches: [main]
   release:
     types: [published]
 

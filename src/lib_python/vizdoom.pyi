@@ -322,7 +322,7 @@ class DoomGame:
         See also:
 
         - :class:`.GameState`
-        - `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py>`_
+        - `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py>`_
         """
 
     def get_audio_sampling_rate(self) -> int:
@@ -332,7 +332,7 @@ class DoomGame:
         See also:
 
         - :class:`.GameState`
-        - `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py>`_
+        - `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py>`_
 
         Note: added in 1.1.9.
         """
@@ -560,7 +560,7 @@ class DoomGame:
         See also:
 
         - :class:`.GameState`
-        - `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py>`_
+        - `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py>`_
         """
 
     def get_screen_channels(self) -> int:
@@ -690,9 +690,9 @@ class DoomGame:
 
         See also:
 
-        - `examples/python/multiple_instances.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/multiple_instances.py>`_
-        - `examples/python/cig_multiplayer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/cig_multiplayer.py>`_
-        - `examples/python/cig_multiplayer_host.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/cig_multiplayer_host.py>`_
+        - `examples/python/multiple_instances.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/multiple_instances.py>`_
+        - `examples/python/cig_multiplayer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/cig_multiplayer.py>`_
+        - `examples/python/cig_multiplayer_host.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/cig_multiplayer_host.py>`_
 
         Note: added in 1.1.2.
         """
@@ -802,8 +802,8 @@ class DoomGame:
 
         See also:
 
-        - `examples/python/record_episodes.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/record_episodes.py>`_
-        - `examples/python/record_multiplayer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/record_multiplayer.py>`_
+        - `examples/python/record_episodes.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/record_episodes.py>`_
+        - `examples/python/record_multiplayer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/record_multiplayer.py>`_
 
         Note: added in 1.1.0.
         """
@@ -872,7 +872,7 @@ class DoomGame:
 
         - :class:`.GameState`
         - :class:`.SamplingRate`
-        - `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py>`_
+        - `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py>`_
 
         Note: added in 1.1.9.
         """
@@ -892,7 +892,7 @@ class DoomGame:
         See also:
 
         - :class:`.GameState`
-        - `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py>`_
+        - `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py>`_
 
         Note: added in 1.1.9.
         """
@@ -910,7 +910,7 @@ class DoomGame:
         See also:
 
         - :class:`.GameState`
-        - `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py>`_
+        - `examples/python/audio_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py>`_
 
         Note: added in 1.1.9.
         """
@@ -929,8 +929,8 @@ class DoomGame:
         See also:
 
         - :class:`.GameState`
-        - `examples/python/automap_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/automap_buffer.py>`_
-        - `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py>`_,
+        - `examples/python/automap_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/automap_buffer.py>`_
+        - `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py>`_,
 
         Note: added in 1.1.0.
         """
@@ -1145,7 +1145,7 @@ class DoomGame:
         See also:
 
         - :class:`.GameState`
-        - `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py>`_
+        - `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py>`_
 
         Note: added in 1.1.0.
         """
@@ -1346,8 +1346,8 @@ class DoomGame:
         See also:
 
         - :class:`.GameState`
-        - `examples/python/labels_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/labels_buffer.py>`_
-        - `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py>`_
+        - `examples/python/labels_buffer.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/labels_buffer.py>`_
+        - `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py>`_
 
         Note: added in 1.1.0.
         """
@@ -1397,7 +1397,7 @@ class DoomGame:
         See also:
 
         - :class:`.GameState`
-        - `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py>`_
+        - `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py>`_
 
         Note: added in 1.3.0.
         """
@@ -1417,7 +1417,7 @@ class DoomGame:
         See also:
 
         - :class:`.GameState`
-        - `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py>`_
+        - `examples/python/buffers.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py>`_
 
         Note: added in 1.3.0.
         """
@@ -1436,7 +1436,7 @@ class DoomGame:
         See also:
 
         - :class:`.GameState`
-        - `examples/python/objects_and_sectors.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/objects_and_sectors.py>`_,
+        - `examples/python/objects_and_sectors.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/objects_and_sectors.py>`_,
 
         Note: added in 1.1.8.
         """
@@ -1609,7 +1609,7 @@ class DoomGame:
         See also:
 
         - :class:`.GameState`
-        - `examples/python/objects_and_sectors.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/objects_and_sectors.py>`_
+        - `examples/python/objects_and_sectors.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/objects_and_sectors.py>`_
 
         Note: added in 1.1.8.
         """
@@ -1624,7 +1624,7 @@ class DoomGame:
 
         See also:
 
-        - `examples/python/seed.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/seed.py>`_
+        - `examples/python/seed.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/seed.py>`_
         """
 
     def set_sound_enabled(self, sound: bool) -> None:
@@ -1649,7 +1649,7 @@ class DoomGame:
 
         See also:
 
-        - `examples/python/ticrate.py <https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/ticrate.py>`_
+        - `examples/python/ticrate.py <https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/ticrate.py>`_
 
         Note: added in 1.1.0.
         """
