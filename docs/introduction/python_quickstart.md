@@ -44,8 +44,8 @@ pip install vizdoom
 We recommend using at least Fedora 35+ or RHEL/CentOS/Alma/Rocky Linux 9+.
 To install openal-soft-devel on RHEL/CentOS/Alma/Rocky Linux 9, one needs to enable crb repository first by running `dnf --enablerepo=crb install`.
 
-### Installing master branch version
-To install the master branch version of ViZDoom run:
+### Installing main branch version
+To install the main branch version of ViZDoom run:
 ```sh
 pip install git+https://github.com/Farama-Foundation/ViZDoom
 ```
@@ -68,7 +68,7 @@ brew install cmake boost sdl2 openal-soft
 We recommend using at least macOS High Sierra 10.13+ with Python 3.9+.
 On Apple Silicon (M1, M2, and M3), make sure you are using Python/Pip for Apple Silicon.
 
-To install the master branch version of ViZDoom, run, in this case you also need to have the above dependencies installed:
+To install the main branch version of ViZDoom, run, in this case you also need to have the above dependencies installed:
 ```sh
 pip install git+https://github.com/Farama-Foundation/ViZDoom
 ```

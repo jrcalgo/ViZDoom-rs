@@ -12,9 +12,9 @@
 
 See also:
 - [`DoomGame.get_state`](./doom_game.md#vizdoom.DoomGame.get_state),
-- [examples/python/basic.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/basic.py),
-- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py).
-- [examples/python/audio_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py).
+- [examples/python/basic.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/basic.py),
+- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py).
+- [examples/python/audio_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py).
 
 
 ## Data types used in GameState
@@ -38,7 +38,7 @@ See also:
 
 See also:
 - [`DoomGame.set_labels_buffer_enabled`](./doom_game.md#vizdoom.DoomGame.set_labels_buffer_enabled),
-- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/labels_buffer.py).
+- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/labels_buffer.py).
 
 
 
@@ -54,7 +54,7 @@ See also:
 
 See also:
 - [`DoomGame.set_objects_info_enabled`](./doom_game.md#vizdoom.DoomGame.set_sectors_info_enabled),
-- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/objects_and_sectors.py).
+- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/objects_and_sectors.py).
 
 Note: added in 1.1.8.
 
@@ -72,7 +72,7 @@ Note: added in 1.1.8.
 **is_blocking** - is true, if line is a wall that can't be passed.
 
 See also:
-- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/objects_and_sectors.py).
+- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/objects_and_sectors.py).
 
 Note: added in 1.1.8.
 
@@ -91,7 +91,7 @@ Note: added in 1.1.8.
 
 See also:
 - [`DoomGame.set_sectors_info_enabled`](./doom_game.md#vizdoom.DoomGame.set_sectors_info_enabled),
-- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/objects_and_sectors.py).
+- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/objects_and_sectors.py).
 
 Note: added in 1.1.8.
 

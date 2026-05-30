@@ -124,7 +124,7 @@ On Windows you need to manually set following environment variables:
 * `VIZDOOM_BUILD_GENERATOR_NAME` - generator name (e.g. `Visual Studio 16 2019`),
 * `VIZDOOM_WIN_DEPS_ROOT` - the path to the directory with ZDoom dependencies (e.g. `C:\ViZDoomWinDepBin`).
 
-The process of building ViZDoom this way on Windows is demonstarted in [scripts/windows_build_wheels.bat](https://github.com/Farama-Foundation/ViZDoom/tree/master/scripts/windows_build_wheels.bat).
+The process of building ViZDoom this way on Windows is demonstarted in [scripts/windows_build_wheels.bat](https://github.com/Farama-Foundation/ViZDoom/tree/main/scripts/windows_build_wheels.bat).
 
 
 ## Building Python Type Stubs (`vizdoom.pyi`)
@@ -187,7 +187,7 @@ where `-DBUILD_ENGINE=ON` and `-DBUILD_PYTHON=ON`  CMake options are optional (d
 
 2. Use generated Visual Studio solution to build all parts of ViZDoom environment.
 
-The process of building ViZDoom this way on Windows is demonstarted in [scripts/windows_build_cmake.bat](https://github.com/Farama-Foundation/ViZDoom/tree/master/scripts/windows_build_cmake.bat) script.
+The process of building ViZDoom this way on Windows is demonstarted in [scripts/windows_build_cmake.bat](https://github.com/Farama-Foundation/ViZDoom/tree/main/scripts/windows_build_cmake.bat) script.
 
 
 ### Compilation output

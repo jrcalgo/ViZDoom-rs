@@ -22,7 +22,7 @@ from vizdoom import *  # noqa
 
 
 project = "ViZDoom"
-copyright = "2025 Farama Foundation"
+copyright = "2026 Farama Foundation"
 author = "Farama Foundation"
 
 # The full version, including alpha/beta/rc tags
@@ -103,7 +103,7 @@ html_theme_options = {
     "image": "img/vizdoom-github.png",
     "versioning": True,
     "source_repository": "https://github.com/Farama-Foundation/ViZDoom/",
-    "source_branch": "master",
+    "source_branch": "main",
     "source_directory": "docs/",
 }
 

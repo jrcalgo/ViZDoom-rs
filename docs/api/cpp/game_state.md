@@ -28,9 +28,9 @@ The declarations of all the enums can be found in the `include/ViZDoomTypes.h` h
 
 See also:
 - [`DoomGame::getState`](./doom_game.md#getstate),
-- [examples/python/basic.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/basic.py),
-- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/buffers.py).
-- [examples/python/audio_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/audio_buffer.py).
+- [examples/python/basic.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/basic.py),
+- [examples/python/buffers.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/buffers.py).
+- [examples/python/audio_buffer.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/audio_buffer.py).
 
 
 
@@ -81,7 +81,7 @@ Description of the object in the labels buffer.
 
 See also:
 - [`DoomGame::setLabelsBufferEnabled`](./doom_game.md#setlabelsbufferenabled),
-- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/labels_buffer.py).
+- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/labels_buffer.py).
 
 
 ---
@@ -108,7 +108,7 @@ Description of the object present in the game world.
 
 See also:
 - [`DoomGame::setObjectsInfoEnabled`](./doom_game.md#setsectorsinfoenabled),
-- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/objects_and_sectors.py).
+- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/objects_and_sectors.py).
 
 Note: added in 1.1.8.
 
@@ -132,7 +132,7 @@ Description of the line that is part of a sector definition.
 **isBlocking / is_blocking** - is true, if line is a wall that can't be passed.
 
 See also:
-- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/objects_and_sectors.py).
+- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/objects_and_sectors.py).
 
 Note: added in 1.1.8.
 
@@ -155,7 +155,7 @@ Description of the sector, part of the map with the same floor and ceiling heigh
 
 See also:
 - [`DoomGame::setSectorsInfoEnabled`](./doom_game.md#setsectorsinfoenabled),
-- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/objects_and_sectors.py).
+- [examples/python/objects_and_sectors.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/objects_and_sectors.py).
 
 Note: added in 1.1.8.
 

@@ -29,7 +29,7 @@ Additionally, all ViZDoom Gymnasium environments support additional keyword argu
 
 ## Note on .wad, .cfg files, and rewards
 
-A scenario usually consist of two files - .wad and .cfg ([see scenarios directory](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios)). The .wad file contains the map and script, and the .cfg file contains additional settings. The maps contained in .wad files (Doom's engine format for storing maps and assets) usually do not implement action constraints, the death penalty, and living rewards (however it is possible). To make it easier, this can be specified in ViZDoom .cfg files as well as other options like access to additional information. These can also be overridden in the code when using the original ViZDoom API. Every mention of any settings that are not included in .wad files is specified with "(config)" in the descriptions below. ViZDoom does not support setting certain rewards (such as killing opponents) in .cfg files. These must be programmed in the .wad files instead.
+A scenario usually consist of two files - .wad and .cfg ([see scenarios directory](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios)). The .wad file contains the map and script, and the .cfg file contains additional settings. The maps contained in .wad files (Doom's engine format for storing maps and assets) usually do not implement action constraints, the death penalty, and living rewards (however it is possible). To make it easier, this can be specified in ViZDoom .cfg files as well as other options like access to additional information. These can also be overridden in the code when using the original ViZDoom API. Every mention of any settings that are not included in .wad files is specified with "(config)" in the descriptions below. ViZDoom does not support setting certain rewards (such as killing opponents) in .cfg files. These must be programmed in the .wad files instead.
 
 
 ## MultiBinary variants
@@ -67,7 +67,7 @@ The episode ends after killing the monster or on timeout.
 
 **Gymnasium/Gym id: `"VizdoomBasic-v1"` / `"VizdoomBasic-MultiBinary-v1"`**
 
-**Configuration file: [basic.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/basic.cfg)**
+**Configuration file: [basic.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/basic.cfg)**
 
 
 ## BASIC AUDIO
@@ -95,7 +95,7 @@ The episode ends after killing the monster or on timeout.
 
 **Gymnasium/Gym id: `"VizdoomBasicAudio-v1"` / `"VizdoomBasicAudio-MultiBinary-v1"`**
 
-**Configuration file: [basic_audio.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/basic_audio.cfg)**
+**Configuration file: [basic_audio.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/basic_audio.cfg)**
 
 **Note:** Added in ViZDoom 1.3.0.
 
@@ -125,7 +125,7 @@ The episode ends after killing the monster or on timeout.
 
 **Gymnasium/Gym id: `"VizdoomBasicNotifications-v1"` / `"VizdoomBasicNotifications-MultiBinary-v1"`**
 
-**Configuration file: [basic_notifications.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/basic_notifications.cfg)**
+**Configuration file: [basic_notifications.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/basic_notifications.cfg)**
 
 **Note:** Added in ViZDoom 1.3.0.
 
@@ -160,7 +160,7 @@ needed.
 
 **Gymnasium/Gym id: `"VizdoomDeadlyCorridor-v1"` / `"VizdoomDeadlyCorridor-MultiBinary-v1"`**
 
-**Configuration file: [deadly_corridor.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/deadly_corridor.cfg)**
+**Configuration file: [deadly_corridor.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/deadly_corridor.cfg)**
 
 
 ## DEATHMATCH
@@ -186,7 +186,7 @@ before the time runs out or it's killed by monsters.
 
 **Gymnasium/Gym id: `"VizdoomDeathmatch-v1"` / `"VizdoomDeathmatch-MultiBinary-v1"`**
 
-**Configuration file: [scenarios/deathmatch.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/deathmatch.cfg)**
+**Configuration file: [scenarios/deathmatch.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/deathmatch.cfg)**
 
 
 ## DEFEND THE CENTER
@@ -217,7 +217,7 @@ because of limited ammo).
 
 **Gymnasium/Gym id: `"VizdoomDefendCenter-v1"` / `"VizdoomDefendCenter-MultiBinary-v1"`**
 
-**Configuration file: [defend_the_center.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/defend_the_center.cfg)**
+**Configuration file: [defend_the_center.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/defend_the_center.cfg)**
 
 
 ## DEFEND THE LINE
@@ -248,7 +248,7 @@ because of limited ammo).
 
 **Gymnasium/Gym id: `"VizdoomDefendLine-v1"` / `"VizdoomDefendLine-MultiBinary-v1"`**
 
-**Configuration file: [defend_the_line.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/defend_the_line.cfg)**
+**Configuration file: [defend_the_line.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/defend_the_line.cfg)**
 
 
 ## HEALTH GATHERING (AND HEALTH GATHERING SUPREME)
@@ -285,7 +285,7 @@ that makes map layout more complex.
 
 **Gymnasium/Gym id: `"VizdoomHealthGathering-v1"` / `"VizdoomHealthGathering-MultiBinary-v1"` / `"VizdoomHealthGatheringSupreme-v1"` / `"VizdoomHealthGatheringSupreme-MultiBinary-v1"`**
 
-**Configuration file: [health_gathering.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/health_gathering.cfg)/[health_gathering_supreme.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/health_gathering_supreme.cfg)**
+**Configuration file: [health_gathering.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/health_gathering.cfg)/[health_gathering_supreme.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/health_gathering_supreme.cfg)**
 
 
 ## MY WAY HOME
@@ -313,7 +313,7 @@ direction. The episode ends when the vest is reached or on timeout/
 
 **Gymnasium/Gym id: `"VizdoomMyWayHome-v1"` / `"VizdoomMyWayHome-MultiBinary-v1"`**
 
-**Configuration file: [my_way_home.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/my_way_home.cfg)**
+**Configuration file: [my_way_home.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/my_way_home.cfg)**
 
 
 ## PREDICT POSITION
@@ -343,7 +343,7 @@ or on timeout.
 
 **Gymnasium/Gym id: `"VizdoomPredictPosition-v1"` / `"VizdoomPredictPosition-MultiBinary-v1"`**
 
-**Configuration file: [predict_position.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/predict_position.cfg)**
+**Configuration file: [predict_position.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/predict_position.cfg)**
 
 
 ## TAKE COVER
@@ -374,4 +374,4 @@ the player dies.
 
 **Gymnasium/Gym id: `"VizdoomTakeCover-v1"` / `"VizdoomTakeCover-MultiBinary-v1"`**
 
-**Configuration file: [take_cover.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/master/scenarios/take_cover.cfg)**
+**Configuration file: [take_cover.cfg](https://github.com/Farama-Foundation/ViZDoom/tree/main/scenarios/take_cover.cfg)**

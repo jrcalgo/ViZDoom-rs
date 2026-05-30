@@ -70,7 +70,7 @@ Try [NavDoom](https://github.com/agiantwhale/navdoom) or [MazeExplorer](https://
 
 ## How to control game speed in `ASYNC` modes?
 
-See: [`DoomGame.set_ticrate`](../api/python/doom_game.md#vizdoom.DoomGame.set_ticrate) and [examples/python/ticrate.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/ticrate.py)
+See: [`DoomGame.set_ticrate`](../api/python/doom_game.md#vizdoom.DoomGame.set_ticrate) and [examples/python/ticrate.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/ticrate.py)
 
 **Original issue and answer:**
 [https://github.com/Farama-Foundation/ViZDoom/issues/209](https://github.com/Farama-Foundation/ViZDoom/issues/209)
@@ -78,14 +78,14 @@ See: [`DoomGame.set_ticrate`](../api/python/doom_game.md#vizdoom.DoomGame.set_ti
 
 ## How can to make an exact 90 degree turn in one action?
 
-See: [examples/python/delta_buttons.py](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/python/delta_buttons.py)
+See: [examples/python/delta_buttons.py](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/python/delta_buttons.py)
 
 **Original issue and answer:**
 [https://github.com/Farama-Foundation/ViZDoom/issues/279](https://github.com/Farama-Foundation/ViZDoom/issues/279)
 
 See also:
 - [`Enums: Button`](../api/python/enums.md#vizdoom.Button)
-- [examples/python/DeltaDuttons.cpp](https://github.com/Farama-Foundation/ViZDoom/tree/master/examples/cpp/DeltaDuttons.cpp)
+- [examples/python/DeltaDuttons.cpp](https://github.com/Farama-Foundation/ViZDoom/tree/main/examples/cpp/DeltaDuttons.cpp)
 
 
 ## Agent does not fire after picking up ammo or weapon?
