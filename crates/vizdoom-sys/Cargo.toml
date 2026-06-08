@@ -1,0 +1,17 @@
+[package]
+name = "vizdoom-sys"
+version = "0.1.0"
+edition = "2024"
+description = "Raw FFI bindings to the ViZDoom C ABI (include/ViZDoomC.h)."
+links = "vizdoom"
+build = "build.rs"
+
+[features]
+# When enabled (or when VIZDOOM_LIB_DIR is set), skip the CMake build and link a
+# prebuilt libvizdoom from VIZDOOM_LIB_DIR.
+prebuilt = []
+
+[dependencies]
+
+[build-dependencies]
+cmake = "0.1"

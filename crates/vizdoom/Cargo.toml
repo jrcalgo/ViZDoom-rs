@@ -1,0 +1,17 @@
+[package]
+name = "vizdoom"
+version = "0.1.0"
+edition = "2024"
+description = "Safe, idiomatic Rust bindings for ViZDoom."
+
+[features]
+# Forwarded to vizdoom-sys: link a prebuilt libvizdoom from VIZDOOM_LIB_DIR.
+prebuilt = ["vizdoom-sys/prebuilt"]
+
+[dependencies]
+vizdoom-sys = { path = "../vizdoom-sys" }
+thiserror = "2.0.18"
+
+[[example]]
+name = "basic"
+path = "examples/basic.rs"

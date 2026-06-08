@@ -1,0 +1,8 @@
+[workspace]
+members = [
+	"crates/vizdoom-sys",
+	"crates/vizdoom"
+]
+resolver = "2"
+
+

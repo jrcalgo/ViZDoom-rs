@@ -15,6 +15,7 @@ set(ViZDoom_VERSION_ID ${ViZDoom_VERSION_MAJOR}${ViZDoom_VERSION_MINOR}${ViZDoom
 option(BUILD_PYTHON "Build ViZDoom Python (3) binding/module" ON)
 option(BUILD_ENGINE "Build ViZDoom Engine (required to build Python package)" ON)
 option(CREATE_PYTHON_STUBS "Build ViZDoom Python (3) .pyi type stubs" OFF)
+option(BUILD_C_ABI_TESTS "Build ViZDoom C ABI tests (ctest)" OFF)
 
 
 # CMake options
@@ -196,4 +197,13 @@ endif()
 
 if(BUILD_PYTHON)
     add_subdirectory(${VIZDOOM_SRC_DIR}/lib_python)
+endif()
+
+
+# C ABI tests
+#-----------------------------------------------------------------------------------------------------------------------
+
+if(BUILD_C_ABI_TESTS)
+    enable_testing()
+    add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/tests/c_abi)
 endif()
