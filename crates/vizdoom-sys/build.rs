@@ -1,21 +1,27 @@
 //! Build script for `vizdoom-sys`.
 //!
-//! Two strategies (see the `prebuilt` feature and `VIZDOOM_LIB_DIR`):
+//! Two strategies (see the `static-link` feature and `VIZDOOM_LIB_DIR`):
 //!
-//! 1. Default: drive the project's CMake build via the `cmake` crate, building
-//!    the shared `libvizdoom` target (which bundles its Boost/threads deps),
-//!    then link against it.
-//! 2. Prebuilt override: if `VIZDOOM_LIB_DIR` is set (or the `prebuilt` feature
-//!    is enabled), skip the CMake build and link a prebuilt library from that
-//!    directory.
+//! 1. Default: dynamic link against a prebuilt `libvizdoom`. Set
+//!    `VIZDOOM_LIB_DIR` to point at a directory containing it; otherwise the
+//!    system linker's standard search paths are used.
+//! 2. Static: enable the `static-link` feature to drive the project's CMake
+//!    build from its vendored C++ source tree (building the shared
+//!    `libvizdoom` target, which bundles its Boost/threads deps) and link
+//!    against the result. This requires the full ViZDoom source tree, which
+//!    is only available when building inside the workspace (not from a
+//!    published crates.io package).
 //!
 //! Note: `libvizdoom` spawns a separate `vizdoom` engine executable at runtime.
 //! That binary (and the scenario/IWAD resources) must be built separately and
 //! its path supplied through `set_vizdoom_path` / a config file.
 
 use std::env;
-use std::path::{Path, PathBuf};
+#[cfg(feature = "static-link")]
+use std::path::Path;
+use std::path::PathBuf;
 
+#[cfg(feature = "static-link")]
 fn repo_root() -> PathBuf {
     // crates/vizdoom-sys -> repo root is two levels up.
     let manifest_dir = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap());
@@ -39,15 +45,35 @@ fn link_cpp_stdlib() {
     }
 }
 
-fn use_prebuilt(lib_dir: &str) {
-    let path = PathBuf::from(lib_dir);
-    println!("cargo:rustc-link-search=native={}", path.display());
-    println!("cargo:rustc-link-arg=-Wl,-rpath,{}", path.display());
+/// Dynamic link against a (possibly prebuilt) `libvizdoom`. If
+/// `VIZDOOM_LIB_DIR` is set, search there and embed an rpath; otherwise rely
+/// on the linker's default search paths (e.g. a system install).
+#[cfg(not(feature = "static-link"))]
+fn link_dynamic() {
+    if let Ok(dir) = env::var("VIZDOOM_LIB_DIR") {
+        if !dir.is_empty() {
+            let path = PathBuf::from(&dir);
+            println!("cargo:rustc-link-search=native={}", path.display());
+            println!("cargo:rustc-link-arg=-Wl,-rpath,{}", path.display());
+        }
+    }
     println!("cargo:rustc-link-lib=dylib=vizdoom");
     link_cpp_stdlib();
 }
 
-fn build_with_cmake(root: &Path) {
+/// Build `libvizdoom` from the vendored C++ source tree via CMake and link it
+/// in. Only available inside the workspace, where the source tree exists.
+#[cfg(feature = "static-link")]
+fn link_static_from_source(root: &Path) {
+    println!(
+        "cargo:rerun-if-changed={}",
+        root.join("include/ViZDoomC.h").display()
+    );
+    println!(
+        "cargo:rerun-if-changed={}",
+        root.join("src/lib/ViZDoomC.cpp").display()
+    );
+
     // Build the shared core library target. It links its Boost/threads deps
     // privately, so we only need to link `vizdoom` itself.
     let dst = cmake::Config::new(root)
@@ -68,26 +94,12 @@ fn build_with_cmake(root: &Path) {
 }
 
 fn main() {
-    let root = repo_root();
-
     println!("cargo:rerun-if-changed=build.rs");
-    println!(
-        "cargo:rerun-if-changed={}",
-        root.join("include/ViZDoomC.h").display()
-    );
-    println!(
-        "cargo:rerun-if-changed={}",
-        root.join("src/lib/ViZDoomC.cpp").display()
-    );
     println!("cargo:rerun-if-env-changed=VIZDOOM_LIB_DIR");
 
-    let prebuilt_feature = env::var("CARGO_FEATURE_PREBUILT").is_ok();
-    match env::var("VIZDOOM_LIB_DIR") {
-        Ok(dir) if !dir.is_empty() => use_prebuilt(&dir),
-        _ if prebuilt_feature => panic!(
-            "the `prebuilt` feature is enabled but VIZDOOM_LIB_DIR is not set; \
-             point it at a directory containing libvizdoom"
-        ),
-        _ => build_with_cmake(&root),
-    }
+    #[cfg(feature = "static-link")]
+    link_static_from_source(&repo_root());
+
+    #[cfg(not(feature = "static-link"))]
+    link_dynamic();
 }

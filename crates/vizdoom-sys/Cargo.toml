@@ -7,11 +7,13 @@ links = "vizdoom"
 build = "build.rs"
 
 [features]
-# When enabled (or when VIZDOOM_LIB_DIR is set), skip the CMake build and link a
-# prebuilt libvizdoom from VIZDOOM_LIB_DIR.
-prebuilt = []
+# Build libvizdoom from the vendored C++ source tree via CMake and link
+# against the result, instead of dynamically linking a prebuilt library.
+# Requires the full ViZDoom source tree, which is only present inside the
+# workspace (not in a published crates.io package).
+static-link = ["dep:cmake"]
 
 [dependencies]
 
 [build-dependencies]
-cmake = "0.1"
+cmake = { version = "0.1", optional = true }

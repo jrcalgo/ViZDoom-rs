@@ -2,6 +2,25 @@
 //!
 //! These mirror `include/ViZDoomC.h` exactly. Prefer the safe `vizdoom` crate;
 //! this crate exists only to expose the linked symbols.
+//!
+//! # Linking `libvizdoom`
+//!
+//! By default this crate dynamically links against a prebuilt `libvizdoom`.
+//! Point `VIZDOOM_LIB_DIR` at a directory containing the shared library, or
+//! ensure it's discoverable via the linker's standard search paths (e.g. a
+//! system install).
+//!
+//! Enabling the `static-link` feature instead drives the project's CMake
+//! build from its vendored C++ source tree and links the resulting library
+//! in directly. This requires the full ViZDoom source tree (`CMakeLists.txt`,
+//! `include/`, `src/`, `cmake_modules/`, ...) to be present at the repo root
+//! two levels above this crate — i.e. it only works when building inside the
+//! workspace, not when depending on a published crates.io package.
+//!
+//! Either way, `libvizdoom` spawns a separate `vizdoom` engine executable at
+//! runtime; that binary (and the scenario/IWAD resources) must be built
+//! separately and its path supplied through `set_vizdoom_path` / a config
+//! file.
 
 #![allow(non_camel_case_types)]
 

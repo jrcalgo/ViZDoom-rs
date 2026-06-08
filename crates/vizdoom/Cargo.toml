@@ -5,8 +5,9 @@ edition = "2024"
 description = "Safe, idiomatic Rust bindings for ViZDoom."
 
 [features]
-# Forwarded to vizdoom-sys: link a prebuilt libvizdoom from VIZDOOM_LIB_DIR.
-prebuilt = ["vizdoom-sys/prebuilt"]
+# Forwarded to vizdoom-sys: build libvizdoom from source via CMake and link
+# against it, instead of dynamically linking a prebuilt library.
+static-link = ["vizdoom-sys/static-link"]
 
 [dependencies]
 vizdoom-sys = { path = "../vizdoom-sys" }
