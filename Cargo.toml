@@ -5,4 +5,5 @@ members = [
 ]
 resolver = "2"
 
-
+[workspace.dependencies]
+vizdoom-sys = { version = "0.1.0", path = "crates/vizdoom-sys" }
