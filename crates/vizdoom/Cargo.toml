@@ -17,7 +17,7 @@ license = "MIT"
 static-link = ["vizdoom-sys/static-link"]
 
 [dependencies]
-vizdoom-sys = { path = "../vizdoom-sys" }
+vizdoom-sys = { workspace = true }
 thiserror = "2.0.18"
 
 [[example]]
