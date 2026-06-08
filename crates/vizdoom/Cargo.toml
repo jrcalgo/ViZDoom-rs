@@ -1,8 +1,15 @@
 [package]
 name = "vizdoom"
 version = "0.1.0"
+authors = ['jrcalgo <jacksonr121@outlook.com>']
 edition = "2024"
 description = "Safe, idiomatic Rust bindings for ViZDoom."
+repository = "https://github.com/jrcalgo/vizdoom-rs"
+documentation = "https://docs.rs/vizdoom"
+readme = "README.md"
+keywords = []
+categories = []
+license = "MIT"
 
 [features]
 # Forwarded to vizdoom-sys: build libvizdoom from source via CMake and link
